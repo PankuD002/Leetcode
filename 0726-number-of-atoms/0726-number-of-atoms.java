@@ -24,7 +24,7 @@ class Solution {
             }
             else{
                 int start=i-1;
-                while(i<n-1 && Character.isLowerCase(formula.charAt(i))){
+                while(i<n && Character.isLowerCase(formula.charAt(i))){
                  i++;
                 }
                 String s= formula.substring(start,i);
